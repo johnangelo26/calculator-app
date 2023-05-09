@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #192b22;
 }
 
 .calculator {
@@ -19,7 +19,7 @@ body {
     padding: 20px;
     border-radius: 18px;
     box-shadow: 0px 3px 16px rgba(113, 115, 119, 0.5);
-    background: transparent;
+    background: #141747;
 }
 
 input {
@@ -27,8 +27,8 @@ input {
     border: none;
     padding: 24px;
     margin: 10px;
-    background: transparent;
-    box-shadow: 0px 3px 15px rgba(85, 85, 85, 0.2);
+    background: #a4a6bf;
+    box-shadow: 0px 3px 15px rgba(58, 59, 71, 0.5);
     font-size: 40px;
     text-align: right;
     cursor: pointer;
@@ -36,7 +36,7 @@ input {
 }
 
 input::placeholder {
-    color: #474747;
+    color: #000000;
 }
 
 button {
@@ -46,13 +46,13 @@ button {
     margin: 10px;
     border-radius: 50%;
     background: transparent;
-    color: #504f4f;
+    color: #e1dcdc;
     font-size: 20px;
     box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.2), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .active {
-    color: #1326f0;
+    color: #d0f13a;
 }
 
 .delete {
